@@ -1,0 +1,11 @@
+framework module MuseGoldLogger {
+  umbrella header "MuseGoldLogger.h"
+
+  export *
+  module * { export * }
+}
+
+module MuseGoldLogger.Swift {
+    header "MuseGoldLogger-Swift.h"
+    requires objc
+}
